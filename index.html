@@ -14,64 +14,62 @@
   <section>
     <div class="form max-length island">
       <div>
-        <h1 class="push-1 not-bold">Want to go to Mars?</h1>
-        <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+        <h1 class="push-1 not-bold zetta pad-t">Want to go to Mars?</h1>
+        <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
       </div>
-          <form method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
-
-
+      <form method="POST" action="https://formspree.io/bradlet@algonquincollege.com">
 
         <fieldset>
-          <legend class="not-bold italic unit xs-1 giga">Personal details</legend>
-<div class="grid">
-          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2 padding-right">
-          <label for="name">Name</label>
-          <input id="name" required>
-          </div>
+          <legend class="not-bold italic giga">Personal details</legend>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1-2 push padding-right">
+              <label for="name">Name</label>
+              <input id="name" name="name" required>
+            </div>
 
-          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2 padding-left">
-          <label for="age">Age</label>
-          <input type="number" id="age" required>
-          </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 push padding-left">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="name" required>
+            </div>
 
-          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2 padding-right">
-          <label for="email">Email</label>
-          <input type="email" id="email" required>
-          </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 push padding-right">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="name" required>
+            </div>
 
-          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2 padding-left">
-          <label for="select">Physical fitness</label>
-          <select id="select">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
-          </select>
-          </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 push padding-left">
+              <label for="select">Physical fitness</label>
+              <select id="select" name="name">
+                <option>Super-human</option>
+                <option>Fit as a fiddle</option>
+                <option>Not terribly strong</option>
+                <option>A little couch-potato-y</option>
+              </select>
+            </div>
 
-          <div class="unit xs-1 push-1-2">
-          <label for="address">Address</label>
-          <textarea id="address"></textarea>
-          </div>
+            <div class="unit xs-1 push">
+              <label for="address">Address</label>
+              <textarea id="address" name="name"></textarea>
+            </div>
           </div>
         </fieldset>
 
         <fieldset>
-          <legend class="not-bold italic unit xs-1 giga">Mission statement</legend>
+          <legend class="not-bold italic giga">Mission statement</legend>
 
-          <div class="unit xs-1 push-1-2">
-          <label for="textarea">Why do you want to go to Mars?</label>
-          <textarea id="textarea"></textarea>
+          <div class="unit xs-1 push">
+            <label for="textarea">Why do you want to go to Mars?</label>
+            <textarea id="textarea" name="name"></textarea>
           </div>
 
           <div class="unit xs-1 text-center">
-          <button type="submit" class="btn">Register for the trip!</button>
-          <input type="hidden" name="_subject" value="Request to join the mission">
+            <button type="submit" class="btn">Register for the trip!</button>
+            <input type="hidden" name="_subject" value="Request to join the mission">
           </div>
         </fieldset>
 
-          </form>
-      </div>
+      </form>
+    </div>
   </section>
 </body>
 </html>
