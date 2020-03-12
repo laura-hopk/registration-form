@@ -8,30 +8,65 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
 </head>
 <body>
+  <section>
+    <div class="form max-length island">
+      <div>
+        <h1 class="push-0 not-bold">Want to go to Mars?</h1>
+        <hr>
+        <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.<p>
+      </div>
+        <form method="POST" action="">
+        <div class="grid grid-middle">
 
-  Want to go to Mars?
-  We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.
+            <h2 class="not-bold italic unit xs-1-3 giga">Personal details</h2><hr class="unit xs-2-3">
 
-  Personal details
-  Name
-  Age
-  Email
-  Physical fitness
-  - Super-human
-  - Fit as a fiddle
-  - Not terribly strong
-  - A little couch-potato-y
-  Address
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2">
+          <label for="name">Name</label>
+          <input id="name" required>
+          </div>
 
-  Mission statement
-  Why do you want to go to Mars?
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2">
+          <label for="Age">Age</label>
+          <input type="number" id="Age" required>
+          </div>
 
-  Register for the trip!
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2">
+          <label for="Email">Email</label>
+          <input type="email" id="Email" required>
+          </div>
 
-  Request to join the mission
+          <div class="unit xs-1 s-1 m-1 l-1-2 push-1-2">
+          <label for="select">Physical fitness</label>
+          <select id="select" required>
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+          </div>
 
+          <div class="unit xs-1 push-1-2">
+          <label for="address">Address</label>
+          <textarea id="address"></textarea>
+          </div>
 
+          <h2 class="not-bold italic unit xs-1-3 giga">Mission statement</h2><hr class="unit xs-2-3">
+
+          <div class="unit xs-1 push-1-2">
+          <label for="textarea">Why do you want to go to Mars?</label>
+          <textarea id="textarea"></textarea>
+          </div>
+
+          <div class="unit xs-1 text-center">
+          <button>Register for the trip!</button>
+          </div>
+
+          </div>
+        </form>
+      </div>
+  </section>
 </body>
 </html>
